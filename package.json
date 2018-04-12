@@ -1,5 +1,5 @@
 {
-  "name": "wallet",
+  "name": "@bpanel/simple-wallet",
   "version": "0.0.1",
   "description": "simple wallet management tool",
   "main": "dist/index.js",
@@ -11,12 +11,19 @@
     "prepublish": "make babel",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bpanel-org/simple-wallet.git"
+  },
   "keywords": [
     "bpanel",
     "bcoin",
-    "wallet"
+    "wallet",
+    "GUI",
+    "bitcoin",
+    "cryptocurrency"
   ],
-  "author": "@bpanel",
+  "author": "bpanel",
   "license": "MIT",
   "dependencies": {
     "babel-cli": "^6.26.0",
