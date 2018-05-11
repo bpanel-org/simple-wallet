@@ -35,8 +35,7 @@
     "@bpanel/bpanel-ui": "git+https://github.com/bpanel-org/bpanel-ui",
     "bcoin": "git+https://github.com/bcoin-org/bcoin.git",
     "@bpanel/bpanel-utils": "git+https://github.com/bpanel-org/bpanel-utils",
-    "react": "^16.2.0",
-    "seamless-immutable": "^7.1.2"
+    "react": "^16.2.0"
   },
   "devDependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
