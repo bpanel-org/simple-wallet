@@ -28,13 +28,13 @@
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
-    "lodash": "^4.17.5",
     "qr-image": "^3.2.0"
   },
   "peerDependencies": {
     "@bpanel/bpanel-ui": "git+https://github.com/bpanel-org/bpanel-ui",
-    "bcoin": "git+https://github.com/bcoin-org/bcoin.git",
     "@bpanel/bpanel-utils": "git+https://github.com/bpanel-org/bpanel-utils",
+    "bcoin": "git+https://github.com/bcoin-org/bcoin.git",
+    "lodash": "^4.17.5",
     "react": "^16.2.0"
   },
   "devDependencies": {
