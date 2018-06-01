@@ -35,6 +35,7 @@
     "@bpanel/bpanel-utils": "^0.0.9",
     "bcoin": "git+https://github.com/bcoin-org/bcoin.git",
     "bledger": "^0.0.2",
+    "bmultisig": "^0.0.2",
     "lodash": "^4.17.5",
     "react": "^16.2.0"
   },
