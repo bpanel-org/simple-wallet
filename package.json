@@ -28,6 +28,7 @@
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
+    "lodash": "^4.17.10",
     "qr-image": "^3.2.0"
   },
   "peerDependencies": {
