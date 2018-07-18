@@ -26,6 +26,7 @@ module.exports = {
   ],
   rules: {
     'prettier/prettier': 'error',
+    'comma-dangle': ['error', 'never'],
     'no-empty': ['error', { allowEmptyCatch: true }]
   },
   extends: [
