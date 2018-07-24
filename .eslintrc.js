@@ -3,7 +3,8 @@ module.exports = {
   plugins: ['prettier', 'react'],
   env: {
     node: true,
-    es6: true
+    es6: true,
+    browser: true
   },
   overrides: [
     {
@@ -14,11 +15,13 @@ module.exports = {
         commonjs: true
       },
       globals: {
-        NODE_ENV: true
+        NODE_ENV: true,
+        window: true,
+        console: true
       }
     },
     {
-      files: ['webapp/tests/**/*.js'],
+      files: ['tests/**/*.js'],
       env: {
         mocha: true
       }
@@ -26,7 +29,8 @@ module.exports = {
   ],
   rules: {
     'prettier/prettier': 'error',
-    'no-empty': ['error', { allowEmptyCatch: true }]
+    'no-empty': ['error', { allowEmptyCatch: true }],
+    'no-console': ['warn']
   },
   extends: [
     'prettier',
