@@ -34,6 +34,7 @@
   "peerDependencies": {
     "@bpanel/bpanel-ui": "^0.0.7",
     "@bpanel/bpanel-utils": "^0.0.10",
+    "react-redux": "^5.0.6",
     "bcoin": "git+https://github.com/bcoin-org/bcoin.git",
     "bledger": "^0.1.1",
     "bmultisig": "^0.0.2",
