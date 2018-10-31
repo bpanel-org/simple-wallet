@@ -28,6 +28,7 @@
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
+    "bsert": "0.0.4",
     "lodash": "^4.17.10",
     "qr-image": "^3.2.0"
   },
