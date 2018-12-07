@@ -1,6 +1,6 @@
 {
   "name": "@bpanel/simple-wallet",
-  "version": "0.3.0",
+  "version": "0.4.1",
   "description": "simple wallet management tool",
   "main": "dist/index.js",
   "scripts": {
@@ -27,15 +27,17 @@
   "license": "MIT",
   "dependencies": {
     "babel-cli": "^6.26.0",
-    "bledger": "^0.1.1",
     "babel-plugin-transform-runtime": "^6.23.0",
+    "bsert": "0.0.4",
     "lodash": "^4.17.10",
     "qr-image": "^3.2.0"
   },
   "peerDependencies": {
-    "@bpanel/bpanel-ui": "^0.0.7",
-    "@bpanel/bpanel-utils": "^0.0.10",
+    "@bpanel/bpanel-ui": "^0.0.16",
+    "@bpanel/bpanel-utils": "^0.1.4",
+    "react-redux": "^5.0.6",
     "bcoin": "git+https://github.com/bcoin-org/bcoin.git",
+    "bledger": "^0.1.1",
     "bmultisig": "^0.0.2",
     "lodash": "^4.17.5",
     "react": "^16.2.0"
